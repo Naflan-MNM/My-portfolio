@@ -74,13 +74,13 @@
                     <h1 class="text-center text-light">About Me</h1>
             </div>
 
-            <div class="row text-center justify-content-center align-items-center">
+            <div class="row">
                 <div class="col-lg-4 imgbox">
                     <img src="images/man2.png" alt="man2" class="img-fluid">
                 </div>
-                <div class="col-lg-4">
-                    <div class="box">
-                        <p class="text-justify text-light ">I am currently pursuing a Bachelor of Information and Communication
+                <div class="col-lg-8">
+                    <div class="aboutbox">
+                        <p class="text-justify text-light text-center ">I am currently pursuing a Bachelor of Information and Communication
                         Technology (Hons) degree, specializing in Software Technology, at
                         the University of Sri Jayewardenepura. With a robust foundation in
                         software engineering and quality assurance, I am eager to apply my
@@ -89,8 +89,29 @@
                         impactful projects. Known for my problem-solving abilities and
                         effective teamwork, I am enthusiastic about bringing my dedication
                         and passion to a dynamic software engineering team</p>
-                        
+                        <ul class="eduex">
+                            <li><a href="#education" id="education-link">Education</a></li>
+                            <li><a href="#experience" id="experience-link">Experience</a></li>
+                        </ul>
+                        <div id="dynamic-content"></div>
+                        <section id="education" class="education" style="display: none;"> 
+                            <h3>Education</h3>
+                            <ul>
+                                <li>Bachelor of Information and Communication Technology (Hons) - University of Sri Jayewardenepura</li>
+                            </ul>
+                        </section>
+                        <section id="experience" style="display: none;" class="experience">
+                            <h3>Experience</h3>
+                            <ul>
+                                <li>Internship at codeAlpha - Software Engineering</li>
+                            </ul>
+                        </section>
                     </div>
+                    <!-- <div class="box">
+                        
+
+                    </div> -->
+                    
                 </div>
             </div> 
         </div>
@@ -126,7 +147,9 @@
     </section>
     
     <!---------------------------------Projets--------------->
-    <section class="project section-padding"></section>
+    <section class="project">
+
+    </section>
 
     <!-- Contact Information Section -->
     <div style="background-color:#33383C;" id="contact-section">
@@ -186,7 +209,7 @@
      <footer class="footer section-padding">
         <p class="text-danger">&copy; 2024 Naflan. All rights reserved.</p>
      </footer>
-    
+    <script src="./script.js"></script>
  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script> 
 </body>
