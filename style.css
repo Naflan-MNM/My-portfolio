@@ -183,8 +183,15 @@ nav a:hover{
 /* About section  */
 .about{
     background-color:  #33383C;
-    height: 100vh;
+    height: 120vh;
     width: 100%;
+    padding-top:1rem;
+}
+.imgbox{
+    background-color: #212529; 
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px  #14100d;
+    margin-bottom: 1rem;
 }
 .box {
     background-color: #212529; 
