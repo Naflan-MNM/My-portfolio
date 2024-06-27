@@ -228,7 +228,14 @@ nav a:hover{
 .education h3{
     padding-left: 2rem;
 }
-
+h3{
+    color:#a3a5a7;
+}
+.active-section {
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+    transition: text-decoration 0.5s ease-in-out;
+}
 .experience{
     display: flex;
     flex-flow: column wrap;
@@ -241,7 +248,28 @@ nav a:hover{
 .experience h3{
     padding-left: 2rem;
 }
+/* .active-link::after{
+    content: '';
+    width: 0; 
+    height: 0.2em;
+    border-radius: 0.25em;
+    background-color: #FF9800;
+    position: absolute;
+    left: 2rem;
+    bottom: -0.1rem;
+    transition: width 1s;
+}
+.active-link.edu::after{
+    width: 4.5rem;
+} */
+/* .active-link.exp::after{
+    width: 5rem;
+} */
 
+.eduex li a:active{
+    text-decoration: underline;
+    text-underline-offset: 0.2rem;
+}
 /*---------Skills ------------------ */
 .skills {
     background-color:  #212529;
